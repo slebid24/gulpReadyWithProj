@@ -1,0 +1,33 @@
+.promo {
+   padding-top: 138px;
+   padding-bottom: 175px;
+   background-color: $color-bg-promo;
+   background-image: url("../img/promo-house.png") no-repeat  top 138px right 0, url("../img/promo-star.png") no-repeat  top 16px left 26px;
+   &__title {
+      @include reset-model;
+      @include font-cabinet-black;
+      @include font(62px, 77px);
+      color: $color-text-dark;
+      max-width: 540px;
+      margin-bottom: 20px;
+   }
+
+   &__description {
+      @include font(18px, 30px);
+      max-width: 455px;
+      margin-bottom: 34px;
+   }
+
+   &__btn {
+      margin-bottom: 100px;
+   }
+
+   &__footer {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__contact {
+      margin-top: 50px;
+   }
+}

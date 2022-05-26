@@ -1,0 +1,14 @@
+.header {
+  background-color: #F7F7F7; 
+  padding-top: 30px;
+
+  &__container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+  }
+
+  &__nav {
+    padding-left: 0px;
+  }
+}

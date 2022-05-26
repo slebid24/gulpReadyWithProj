@@ -1,0 +1,10 @@
+.toolbar {
+   position: relative;
+
+   &__lang {
+      position: absolute;
+
+      top: 10px;
+      left: -80px;
+   }
+}
